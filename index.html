@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles/stylesheet.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Ahnaf Farhan">
     <meta name="description" content="This is the personal website / portfolio of Ahnaf Farhan aka ME. This has been built with my simple knowledge of HTML and CSS. This website or project marks the start of my journey as a web developer. Here in this site, you can find out a little about me and my experience with getting into web dev.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.ico">
     <title> Ahnaf Farhan </title>
 </head>
 <body>
@@ -15,8 +17,8 @@
             <nav>
                 <ul>
                     <li><a href="newsletter.html">Newsletter</a></li> 
-                    <li><a href="https://github.com/polarsmash">GitHub</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="https://github.com/polarsmash" target=”_blank”>GitHub</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><a href="about.html">About</a></li>
                 </ul> 
             </nav>
@@ -33,13 +35,27 @@
 
         </section>
 
-        <section>
-            
+        <section id="contact">
+            <form action="#" method="get">
+                <h3>Want to get in touch?</h3>
+
+                    <label for="name">Your Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+
+                    <label for="email">Your Email: </label>
+                    <input type="email" name="email" id="email" required>
+
+                    <label for="message">Your Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+
+                    <button type="submit">Submit</button>
+
+            </form>
         </section>
     </main>
 
     <footer>
-        <p>Copyright &copy; 2022 Ahnaf Farhan All Rights Reserved</p>
+        <p>Copyright &copy; 2022 Ahnaf Farhan. All rights reserved.</p>
         <a href="https://www.facebook.com/ahnaf.farhan.09"><img src="images/fb.png" alt="Facebook Profile" width="40px" height="40px"></a>
         <a href="https://github.com/polarsmash"><img src="images/github.png" alt="GitHub Profile" width="40px" height="40px"></a>
     </footer>
