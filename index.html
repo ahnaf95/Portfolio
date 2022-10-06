@@ -11,11 +11,11 @@
     <title> Ahnaf Farhan </title>
 </head>
 <body>
-    <header>
+    <header class="header">
 
-        <h1>Welcome!</h1>
-            <nav>
-                <ul>
+        <h1 class="header__h1">Welcome!</h1>
+            <nav class="header__nav">
+                <ul class="header__ul">
                     <li><a href="https://github.com/polarsmash" target=”_blank”>GitHub</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="about.html">About</a></li>
@@ -24,43 +24,46 @@
 
     </header>
 
-    <main>
-        <section>
-            <h2>Ahnaf Farhan</h2>
-                <p>Student | Aspiring Web Developer</p>
+    <main class="main">
+        <section class="main__section">
+            <h2 class="main__h2">Ahnaf Farhan</h2>
+                <p class="main__h2p main__p">Student | Aspiring Web Developer</p>
 
-                <h3>I'm so glad that you've so happened to have landed on my home page!</h3>
-                    <p>I know it doesn't look like much but, I believe that all of our journeys start somewhere, and it always starts with simple little steps. I'm very passionate about web development and keen to improve my skills in this field. I'm always up for advice or any constructive criticism. I have built this site to the best of my ability and hope for this site to be the first building block of my career.</p>
-            <figure>
-                <img src="images/hero.png" alt="Beautiful Scenery" width="1920" height="1080">
-                <figcaption>Beautiful Scenery</figcaption>
-            </figure>
+                <h3 class="main__h3">I'm so glad that you've so happened to have landed on my home page!</h3>
+                    <p class="main__h3p main__p">I know it doesn't look like much but, I believe that all of our journeys start somewhere, and it always starts with simple little steps. I'm very passionate about web development and keen to improve my skills in this field. I'm always up for advice or any constructive criticism. I have built this site to the best of my ability and hope for this site to be the first building block of my career.</p>
+        <figure class="hero">
+            <img src="images/hero.png" alt="Beautiful Scenery" width="1920" height="1080">
+            <figcaption class="offscreen">Beautiful Scenery</figcaption>
+        </figure>
                     
         </section>
 
-        <section id="contact">
-            <form action="#" method="get">
-                <h3>Want to get in touch?</h3>
-
-                    <label for="name">Your Name: </label>
-                    <input type="text" name="name" id="name" placeholder="Your Name" required>
-
-                    <label for="email">Your Email: </label>
-                    <input type="email" name="email" id="email" required>
-
-                    <label for="message">Your Message: </label>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
-
-                    <button type="submit">Submit</button>
-
+        <section id="contact" class="main__section contact">
+            <form class="contact" action="#" method="get">
+                <h3 class="contact__h3">Want to get in touch?</h3>
+                    <p class="contact__p">
+                        <label class="contact__label" for="name">Your Name: </label>
+                        <input class="contact__input" type="text" name="name" id="name" placeholder="Your Name" required>
+                    </p>
+                    <p class="contact__p">
+                        <label class="contact__label" for="email">Your Email: </label>
+                        <input class="contact__input" type="email" name="email" id="email" required>
+                    </p>
+                        <label class="contact__label" for="message">Your Message: </label>
+                        <textarea class="contact__textarea" name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <p class="contact__p">
+                        <button class="contact__button" type="submit">Submit</button>
+                    </p>
             </form>
         </section>
     </main>
 
-    <footer>
-        <p>Copyright &copy; 2022 Ahnaf Farhan. All rights reserved.</p>
-        <a href="https://www.facebook.com/ahnaf.farhan.09"><img src="images/fb.png" alt="Facebook Profile" width="40px" height="40px"></a>
-        <a href="https://github.com/polarsmash"><img src="images/github.png" alt="GitHub Profile" width="40px" height="40px"></a>
+    <footer class="footer">
+        <div class="footer">
+            <p>Copyright &copy; 2022 <span class="nowrap">Ahnaf Farhan</span>. All rights reserved.</p>
+            <a href="https://www.facebook.com/ahnaf.farhan.09"><img src="images/fb.png" alt="Facebook Profile" width="40px" height="40px"></a>
+            <a href="https://github.com/polarsmash"><img src="images/github.png" alt="GitHub Profile" width="40px" height="40px"></a>
+        </div>
     </footer>
 
 </body>
