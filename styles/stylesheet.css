@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
 /* RESET */
 
 * {
@@ -16,5 +18,37 @@
     position: fixed;
     left: 10000px;
 }
+
+img {
+    display: block;
+}
+
+/* VARIABLES */
+
+:root {
+    /* COLOR */
+        --FONT-COLOR: #333;
+        --HEADER-COLOR: #333;
+        --BGCOLOR: whitesmoke;
+        --BORDER-COLOR: #333;
+
+    /* FONT */
+        --FF: 'JetBrains Mono', monospace;
+        --FS: clamp{1.5rem, 25vh, 2rem}
+
+    /* MARGIN */
+        --MARGIN: 0.5em 0.25em;
+
+    /* PADDING */
+        --PADDING: 0.5em 0.25em;
+
+    /* BORDERS */
+        --BORDERS: 1px solid var(var(--BORDER-COLOR))
+        --BORDER-RADIUS: 15px;
+}
+
+
+
+/* HTML */
 
 
