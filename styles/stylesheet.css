@@ -39,7 +39,7 @@ html {
         --HEADER-COLOR: #333;
         --BGCOLOR: whitesmoke;
         --BORDER-COLOR: #333;
-        --HEADER-BGCOLOR: #333;
+        --HEADER-BGCOLOR: #313d5a;
         --HEADER-COLOR: whitesmoke;
 
 
@@ -69,6 +69,13 @@ html {
     width: 100%;
     height: 100%;
     scroll-behavior: smooth;
+    background-color: rgb(255, 255, 255);
+}
+
+h1,
+h2,
+h3 {
+    letter-spacing: 0.1em;
 }
 
 /* HEADER */
@@ -116,8 +123,69 @@ html {
 }
 
 .header__li a:any-link {
-    color: white;
+    color: whitesmoke;
 }
+
+.header__li a:hover,
+.header__li a:active {
+    color: rgb(0, 174, 255);
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.main__p {
+    line-height: 1.5;
+    font-weight: 550;
+}
+
+.main__article {
+/*     background-image: linear-gradient(to bottom, #cbc5ea, #eaeaea); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #505050;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+
+
+.height {
+    min-height: 75vh;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.main__h2 {
+    padding-top: 8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main__h2,
+.main__h2p {
+    font-weight: bold;
+    text-shadow: 1px 2px 1.5px gray;
+}
+
+.main__h2
+
+
+
+
+
 
 
 
