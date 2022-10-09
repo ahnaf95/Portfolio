@@ -161,8 +161,8 @@ main {
 
 
 .height {
-    min-height: 75vh;
-    font-size: 2rem;
+    min-height: 70vh;
+    font-size: 2.5rem;
     text-align: center;
     padding: 1rem;
 }
@@ -172,6 +172,7 @@ main {
     padding-left: 2rem;
     padding-right: 2rem;
     margin-bottom: 2rem;
+    text-transform: uppercase;
 }
 
 .main__h2,
@@ -180,7 +181,12 @@ main {
     text-shadow: 1px 2px 1.5px gray;
 }
 
-.main__h2
+.main__p {
+    padding: 1.5rem;
+    display: inline-block;
+    margin-bottom: 5rem;
+    text-align: center;
+}
 
 
 
