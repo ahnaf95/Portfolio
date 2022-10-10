@@ -40,7 +40,9 @@ html {
         --BGCOLOR: whitesmoke;
         --BORDER-COLOR: #333;
         --HEADER-BGCOLOR: #313d5a;
+        --FOOTER-BGCOLOR: #313d5a;
         --HEADER-COLOR: whitesmoke;
+        --FOOTER-COLOR: whitesmoke;
 
 
     /* FONT */
@@ -118,16 +120,16 @@ h3 {
     list-style-type: none;
 }
 
-.header__li a {
+ a {
     text-decoration: none;
 }
 
-.header__li a:any-link {
+ a:any-link {
     color: whitesmoke;
 }
 
-.header__li a:hover,
-.header__li a:active {
+ a:hover,
+ a:active {
     color: rgb(0, 174, 255);
 }
 
@@ -187,6 +189,20 @@ main {
     margin-bottom: 5rem;
     text-align: center;
 }
+
+/* FOOTER */
+
+.footer {
+    background-color: var(--FOOTER-BGCOLOR);
+    color: var(--FOOTER-COLOR);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    padding: 0.5em;
+}
+
+
 
 
 
