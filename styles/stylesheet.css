@@ -59,7 +59,7 @@ html {
         --PADDING-SD: 1.5em;
 
     /* BORDERS */
-        --BORDERS: 1px solid var(var(--BORDER-COLOR));
+        --BORDERS: 1.7px solid var(--BORDER-COLOR);
         --BORDER-RADIUS: 15px;
 }
 
@@ -140,6 +140,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
+    min-height: 100vh;
 }
 
 .main__p {
@@ -152,7 +153,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: #505050;
+    color: #414040;
 
     display: flex;
     justify-content: center;
@@ -201,6 +202,43 @@ main {
     flex-flow: column nowrap;
     padding: 0.5em;
 }
+
+/* ABOUT */
+
+.main__p a {
+    color: #414040;
+    text-decoration: underline;
+}
+
+/* FORM */
+
+.contact {
+    margin: 2rem auto;
+    border: var(--BORDERS);
+    border-radius: var(--BORDER-RADIUS);
+    padding: 1rem 3rem;
+
+}
+
+input, label, textarea {
+    display: block;
+    width: 100%;
+    margin: 0.5rem auto;
+    border-radius: 7px;
+}
+
+
+
+.contact__h3 {
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
 
 
 
