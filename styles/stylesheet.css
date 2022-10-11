@@ -109,6 +109,7 @@ h3 {
     padding: 0px;
     font-size: 2em;
     font-family: var(--FF-HEADER);
+    cursor: context-menu;
 }
 
 .header__ul {
@@ -130,7 +131,7 @@ h3 {
 
  a:hover,
  a:active {
-    color: rgb(0, 174, 255);
+    color: hsla(199, 100%, 50%, 0.829);
 }
 
 /* MAIN */
@@ -181,7 +182,8 @@ main {
 .main__h2,
 .main__h2p {
     font-weight: bold;
-    text-shadow: 1px 2px 1.5px gray;
+    text-shadow: 1px 2px 1.5px 414040;
+    letter-spacing: 0;
 }
 
 .main__p {
@@ -213,6 +215,8 @@ main {
 /* FORM */
 
 .contact {
+    font-size: inherit;
+    font-style: inherit;
     margin: 2rem auto;
     border: var(--BORDERS);
     border-radius: var(--BORDER-RADIUS);
@@ -228,10 +232,26 @@ input, label, textarea {
 }
 
 
-
 .contact__h3 {
     font-size: 1.5rem;
 }
+
+.contact__button {
+    min-width: 100px;
+    min-height: 50px;
+    border-radius: 7px;
+    border-width: 1px;
+
+    background-color: #313d5a;
+    color: whitesmoke;
+    cursor: pointer;
+} 
+
+.contact__button:hover {
+    background-color: hsla(222, 29%, 27%, 0.9);
+}
+
+
 
 
 
